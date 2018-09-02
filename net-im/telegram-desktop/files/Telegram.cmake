@@ -104,6 +104,8 @@ file(GLOB FLAT_EXTRA_FILES
 	SourceFiles/base/tests_main.cpp
 	SourceFiles/passport/passport_edit_identity_box.cpp
 	SourceFiles/passport/passport_form_row.cpp
+	SourceFiles/storage/storage_encrypted_file_tests.cpp
+	SourceFiles/storage/cache/storage_cache_database_tests.cpp
 )
 list(REMOVE_ITEM FLAT_SOURCE_FILES ${FLAT_EXTRA_FILES})
 
