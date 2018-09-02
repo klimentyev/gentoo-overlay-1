@@ -96,6 +96,7 @@ file(GLOB FLAT_SOURCE_FILES
 	SourceFiles/profile/*.cpp
 	SourceFiles/settings/*.cpp
 	SourceFiles/storage/*.cpp
+	SourceFiles/storage/cache/*.cpp
 	${THIRD_PARTY_DIR}/emoji_suggestions/*.cpp
 )
 file(GLOB FLAT_EXTRA_FILES
