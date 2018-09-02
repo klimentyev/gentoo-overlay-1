@@ -13,6 +13,7 @@ EGIT_SUBMODULES=(
 	Telegram/ThirdParty/libtgvoip
 	Telegram/ThirdParty/variant
 	Telegram/ThirdParty/GSL
+	Telegram/ThirdParty/xxHash
 )
 
 if [[ ${PV} == 9999 ]]; then
